@@ -1,0 +1,10 @@
+checkpoints/
+videos/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+recording/
+*.pt
+monitoring/
