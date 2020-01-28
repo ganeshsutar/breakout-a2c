@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Categorical
 import torch.optim as optim
+import torch.nn.utils as tutils
 import numpy as np
 from skimage.transform import resize
 import gym
@@ -230,7 +231,7 @@ def trainModel(model):
 
     start_time = time.time()
     agent = BreakoutAgent(model)
-    stats = utils.Stats()
+    stats = Stats()
     last_lives = 5.0
 
     agent.train()
