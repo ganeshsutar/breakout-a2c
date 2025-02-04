@@ -1,0 +1,5 @@
+typer
+rich
+gym
+gym[atari]
+gym[accept-rom-license]
